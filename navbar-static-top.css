@@ -1,0 +1,161 @@
+body {
+  min-height: 200px;
+  background-image: url("dirt.jpg");
+}
+
+.transparent {
+  margin-right: 100px;
+  margin-left: 100px;
+  margin-bottom: 100px;
+  margin-top: 100px;
+  background:rgba(0,0,0,0.5);
+}
+
+
+h1{
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 75px;
+	color: white;
+	text-align: center;
+}
+
+h2{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 35px;
+	color: white;
+	text-align: center;
+}
+
+p{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 25px;
+	color: white;
+	text-align: center;
+  padding: 30px;
+}
+
+ol{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  color: white;
+  text-align: left;
+  margin-left: 200px;
+}
+
+ul {list-style-type: none;}
+body {font-family: Verdana, sans-serif;}
+
+.chart{
+  margin-left: 210px;
+  margin-bottom: 40px;
+}
+
+/* Month header */
+.month {
+    padding: 10px 435px;
+    width: 100%;
+    background: #973434;
+    margin-top: 30px;
+}
+
+/* Month list */
+.month ul {
+    margin: 20px;
+    padding: 0px;
+}
+
+.month ul li {
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+/* Previous button inside month header */
+.month .prev {
+    float: left;
+    padding-top: 10px;
+}
+
+
+
+/* Next button */
+.month .next {
+    float: right;
+    padding-top: 10px;
+}
+
+/* Weekdays (Mon-Sun) */
+.weekdays {
+    margin: 0;
+    padding: 10px 0;
+    background-color:#ddd;
+}
+
+.weekdays li {
+    display: inline-block;
+    width: 13.6%;
+    color: #666;
+    text-align: center;
+}
+
+.stuff li {
+    margin-left: 30px;
+    padding: 10px 0;
+    background-color:#ddd;
+    display: inline-block;
+    width: 15%;
+    color: #666;
+    text-align: center;
+    vertical-align: center;
+}
+
+/* Days (1-31) */
+.days {
+    padding: 100px, 20px, 20px, 20px;
+    background: #eee;
+    margin-bottom: 30px;
+}
+
+.days li {
+    list-style-type: none;
+    display: inline-block;
+    width: 13.6%;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    padding-left: 0px;
+    font-size: 12px;
+    color: #777;
+}
+
+/* Highlight the "current" day */
+.days li .red {
+    padding: 15px;
+    background: #973434;
+    color: white !important
+}
+.days li .green {
+    padding: 15px;
+    background: green;
+    color: white !important
+}
+.days li .orange {
+    padding: 15px;
+    background: orange;
+    color: white !important
+}
+
+.transparent.mapbody{
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+    #map-canvas {
+      width: 100%;
+      height: 100%;
+    }
+    .gm-style-iw {
+      text-align: center;
+    }
